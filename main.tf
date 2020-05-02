@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "tf-playbbook"
+    organization = "tf-playbook"
 
     workspaces {
       name = "learn-terraform-circleci"
